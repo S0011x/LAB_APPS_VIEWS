@@ -5,6 +5,6 @@ def home(request:HttpRequest):
     return HttpResponse("Hello World, This is my new HOME for Car Rentals Website! We're excited to welcome you here.")
 
 
-def info(request):
+def info(request:HttpRequest):
     return HttpResponse("A simple paragraph about Car Rentals.")
 
